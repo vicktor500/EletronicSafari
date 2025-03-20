@@ -2,6 +2,8 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using ElectronicSafari.Models;
 using Npgsql;
+using System.Data;
+using Microsoft.AspNetCore.Identity.UI.Services;
 
 public class DatabaseConnection
 {
